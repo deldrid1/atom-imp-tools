@@ -1,9 +1,12 @@
 {
-  "name": "spark-dev",
+  "name": "atom-imp-tools",
   "main": "./lib/spark-dev",
   "version": "0.0.27",
-  "description": "Professional, hackable IDE for Particle, based on Github's Atom",
-  "repository": "https://github.com/spark/spark-dev",
+  "description": "Package for the [Atom IDE](https://atom.io/) to enable seamless integration between Atom and [Electric Imp's](https://electricimp.com/) Cloud Services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deldrid1/atom-imp-tools.git"
+  },
   "license": "Apache-2.0",
   "engines": {
     "atom": ">0.50.0"
@@ -39,5 +42,5 @@
       }
     }
   },
-  "readme": "ERROR: No README data found!"
+  "readme": "ERROR: No README data found!",
 }
