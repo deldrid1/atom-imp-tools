@@ -1,24 +1,20 @@
-# Particle Dev package for Atom
+# Atom Electric Imp Tools
 
-Particle Dev is a professional, open source, hackable IDE, designed for use with the Particle devices.
+`atom-imp-tools` is a package for the [Atom IDE](https://atom.io/) to enable seamless integration between Atom and [Electric Imp's](https://electricimp.com/) Cloud Services.  These tools use the [Electric Imp Build API](https://electricimp.com/docs/buildapi/).
 
-[![Build Status](https://travis-ci.org/spark/spark-dev.svg?branch=master)](https://travis-ci.org/spark/spark-dev)
+This project was inspired by (and is in fact a shameless fork of) [Spark Dev](https://github.com/spark/spark-dev) - a professional, open source, hackable IDE, designed for use with Particle devices.
+
+# Project Status
+The project is currently in its infancy and is therefore highly unstable.  Very few spark features have been migrated to become Electric Imp features...  
+
+[![Build Status](https://travis-ci.org/deldrid1/atom-imp-tools.svg?branch=master)](https://travis-ci.org/deldrid1/atom-imp-tools)
 
 ## Installing
-
-#### Particle Dev App
-
-Download and install the latest [Particle Dev App](https://github.com/spark/particle-dev-app)
-
-#### GitHub Atom
-
+You will first need Atom installed, then simply search for and install the following packages:
 Install following packages:
 
 * [tool-bar](https://atom.io/packages/tool-bar)
-* [spark-dev](https://atom.io/packages/spark-dev)
-* [particle-dev-cloud-functions](https://atom.io/packages/particle-dev-cloud-functions)
-* [particle-dev-cloud-variables](https://atom.io/packages/particle-dev-cloud-variables)
+* [atom-imp-tools](https://atom.io/packages/atom-imp-tools)
 
 ## Usage
-
-See [our documentation](http://docs.particle.io/core/dev) to learn about how to use Particle Dev for software development.
+Coming Soon...  For now see https://docs.particle.io/guide/tools-and-features/dev/
