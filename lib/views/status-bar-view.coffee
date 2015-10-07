@@ -10,7 +10,7 @@ class StatusBarView extends View
   @content: ->
     @div =>
       @div id: 'spark-icon', class: 'inline-block', outlet: 'logoTile', =>
-        @img src: 'atom://spark-dev/images/spark.png'
+        @img src: 'atom://atom-imp-tools/images/spark.png'
       @div id: 'spark-login-status', class: 'inline-block', outlet: 'loginStatusTile'
       @div id: 'spark-current-device', class: 'inline-block hidden', outlet: 'currentCoreTile', =>
         @span class: 'platform-icon', outlet: 'platformIcon', title: 'Current target platform', =>

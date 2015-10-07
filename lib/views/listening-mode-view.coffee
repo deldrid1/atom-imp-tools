@@ -8,7 +8,7 @@ class ListeningModeView extends View
     @div =>
       @h1 'Waiting for core...'
       @p =>
-        @img src: 'atom://spark-dev/images/listening.gif'
+        @img src: 'atom://atom-imp-tools/images/listening.gif'
       @p 'Check if your core is connected via USB and it\'s in listening mode (LED blinking blue).'
       @div class: 'block', =>
         @button click: 'cancel', class: 'btn', 'Cancel'

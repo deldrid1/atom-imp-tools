@@ -1,6 +1,6 @@
 {
   "name": "atom-imp-tools",
-  "main": "./lib/spark-dev",
+  "main": "./lib/imp-BuildAPI",
   "version": "0.0.1",
   "description": "Package for Atom to enable seamless integration Electric Imp's Cloud Services",
   "repository": {
